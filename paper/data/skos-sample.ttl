@@ -1,0 +1,6 @@
+@prefix workAction: <http://data.airbus.com/id/scheme/workAction/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+workAction:Change a skos:Concept ;
+	skos:prefLabel "Change"@en ;
+	skos:inScheme workAction:keyword ;
+	skos:altLabel "Replace"@en, "Changed"@en, "Replaced"@en , "Replacement"@en .
