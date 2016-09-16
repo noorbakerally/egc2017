@@ -2,6 +2,13 @@
 # mappings csv ---> properties
 # source: X_tree_egc_t2.csv 
 
+## Prefixes ###
+@prefix lgdo: <http://linkedgeodata.org/page/ontology/> 
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> 
+@prefix  tonto: <http://data.lof.com/def/tonto#>
+@prefix rlof: <http://data.lof.com/id/tree/>
+###### #################################
+
 ADR_SECTEUR   ---> tonto:secteur
 ANNEEDEPLANTATION --> tonto:anneeDePlantation
 ANNEEREALISATIONDIAGNOSTIC -->tonto:anneeRealisationDiagnostic
