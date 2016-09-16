@@ -1,0 +1,33 @@
+
+# mappings csv ---> properties
+# source: X_tree_egc_t2.csv 
+
+ADR_SECTEUR   ---> tonto:secteur
+ANNEEDEPLANTATION --> tonto:anneeDePlantation
+ANNEEREALISATIONDIAGNOSTIC -->tonto:anneeRealisationDiagnostic
+ANNEETRAVAUXPRECONISESDIAG   --> tonto:anneeTravauxPreconisesDiag
+CODE    ---> tonto:code
+CODE_PARENT --> tonto:parent (ideally:skos:Concept)
+CODE_PARENT_DESC --> tonto:locationParent 
+DIAMETREARBREAUNMETRE --> tonto:diametreSouche
+ESPECE   ---> dbpedia-owl:species
+FREQUENTATIONCIBLE --->tonto:frenquentationCible
+GENRE_BOTA    ----> tonto:genreBotanique
+IDENTIFIANTPLU  --> tonto:identifiantPlu
+INTITULEPROTECTIONPLU -->  tonto:intituleProtectionPlu (ideally skos:prefLabel associated to category of tree)
+NOTEDIAGNOSTIC  ---> tonto:noteDiag
+PRIORITEDERENOUVELLEMENT --> tonto:prioriteRenouvellement
+RAISONDEPLANTATION    ---> tonto:raisonPlantation
+REMARQUES  -----> rdfs:comment
+SOUS_CATEGORIE  ---> tonto:sousCategorie (ideally:skos:Concept?)
+SOUS_CATEGORIE_DESC ---> rdfs:label (for subcategory)
+STADEDEDEVELOPPEMENT  ---> tonto:stateDeDev
+STADEDEVELOPPEMENTDIAG ---> tonto:stateDevDiag
+TRAITEMENTCHENILLES    ---> tonto:traitementChenille
+TRAVAUXPRECONISESDIAG  ----> tonto:travauxPreconisesDiag
+TROTTOIR    ---------> tonto:trottoir
+TYPEIMPLANTATIONPLU   ----> tonto:typeImplantationPlu
+VARIETE   ---> tonto:variete
+VIGUEUR   ---> tonto:vigueur
+X ----> geo:lat
+Y ----> geo:long
