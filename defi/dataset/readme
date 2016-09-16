@@ -1,0 +1,9 @@
+1- CRS des donnees: RGF 93/ CC45
++ Trouver une maniere generique de visualiser ces donnees (par classe, etc) ou via API
++ Combiner avec des donnees externes (IGN pour les secteurs par exemple pour avoir les polygones)
++ Librairie Js pour transformer RGF 93/CC45 --> WGS84. 
++ Voir comment enrichir les donnnes de Grenoble
++ Voir si cet outil peut aider: http://fr.lodlive.it/ 
++ Faire une appli basique generique qui pour un dataset, prend le type geolocalise, met sur la carte en fonction du type (ici Arbre) une 
+   couleur differente, et une description lorsque l'on passe la souris sur la ressource (pop up?) (facette?) 
++ 
