@@ -6,4 +6,4 @@
 + Voir si cet outil peut aider: http://fr.lodlive.it/ 
 + Faire une appli basique generique qui pour un dataset, prend le type geolocalise, met sur la carte en fonction du type (ici Arbre) une 
    couleur differente, et une description lorsque l'on passe la souris sur la ressource (pop up?) (facette?) 
-+ 
++ Grenoble INSEE: http://rdf.insee.fr/sparql/describe?uri=http%3A%2F%2Fid.insee.fr%2Fgeo%2Fcommune%2F38185&default-graph-uri=data 
