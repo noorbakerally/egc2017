@@ -1,0 +1,44 @@
+=== Linked Opened Trees/Linked open Forest(Lof) === 
+
+Motivation
+From IoT to LOT (Linked Open Trees). We want to collect information about trees spread in diverse silos in Open Data platform, study the patterns, transform them in RDF, interlinked them and build nice applications on them of the data.
+
+Paper title: "How to have a good Lof with Lov: using a vocabulary directory for building a dataset of tree information."
+Data Sources
+
+Palo Alto Trees: https://www.google.com/fusiontables/DataSource?docid=1XKUADil8qq1PT6xkJV3FF9bqLAZj2tBXwTTI_rc#map:id=3
+Trees in data.gouv.fr: http://www.data.gouv.fr/fr/dataset/arbres-remarquables-en-france-et-ailleurs 
+http://dbpedia.org/class/yago/IndividualTrees
+http://data.vancouver.ca/datacatalogue/streetTrees.htm
+https://data.cityofnewyork.us/browse?q=Street%20Tree%20Census&sortBy=relevance&utf8=%E2%9C%93
+http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=5af95104c26f3310VgnVCM1000003dd60f89RCRD
+https://data.edmonton.ca/Environmental-Services/Trees-Species-Map-View-/cggb-hzzm
+http://www.opentrees.org/
+http://www.belfastcity.gov.uk/nmsruntime/saveasdialog.aspx?lID=3185&sID=2430
+http://data.ottawa.ca/dataset/tree-inventory-street-trees
+https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq?
+En France
+http://data.grandlyon.com/localisation/prescriptions-relatives-au-patrimoine-vfgftal-et-bfti---espace-boisf-classf-ponctuel---arbre-remarquable-du-p.l.u.-du-grand-lyon/
+http://data.grandlyon.com/environnement/arbre-dalignement/
+http://opendata.paris.fr/explore/?q=arbres
+https://www.data.gouv.fr/fr/search/?q=arbres
+https://www.opentreemap.org/
+http://treezilla.org/ 
+
+
+==Data for interlinking in RDF==
+
+Vocabulary: http://opendata.caceres.es/def/ontomunicipio.html 
+Arbres de Carceres (ESP): http://opendata.caceres.es/arboles/ 
+RDF http://opendata.caceres.es/dataset/arboles-caceres.rdf 
+Endpoint:  http://opendata.caceres.es/sparql/ 
+Exemple ressource: http://opendata.caceres.es/recurso/page/medio-ambiente/arboles/Arbol/acer09003010005001 
+Use cases
+Find and display trees according to some filters (species, age, etc.)
+Correlation of trees with impact on environment
+Trees closed to some relevant streets (e.g., champs elysees) or nearest an “important spot”
+
+Find a banana: 
+HTTP GET http://data.lof.org/trees/t12154205/fruits/f54125 retrieve a banana.
+
+Prune large branches: HTTP POST http://data.lof.org/trees/t12154205/prune  with Intelligent objects from the Web of Things. 
