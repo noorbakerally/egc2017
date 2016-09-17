@@ -1,0 +1,68 @@
+Description des champs
+=======================
+
+Details General
+----------------
+- CODE: Identifiant de l'arbre
+
+- IDENTIFIANTPLU: Numéro de l'arbre donné dans le cadre du PLU
+
+- INTITULEPROTECTIONPLU: Intitulé donné à la catégorie de protection de l'arbre à laquelle il appartient dans le cadre du PLU
+
+- TYPEIMPLANTATIONPLU: Mode d'implantation des arbres dans l'espace
+
+Caractéristiques de l'arbre
+----------------------------
+
+- ANNEEDEPLANTATION: Les plantations se font généralement l'hiver. A noter que les données de ces 3 dernières années sont les plus à jour
+
+- DIAMETREARBREAUNMETRE: Diamètre de la souche
+
+- ESPECE:Espèce de l'arbre
+
+- GENRE_BOTA:Genre botanique de l'arbre
+
+- STADEDEDEVELOPPEMENT: Stade de développement de l'arbre
+
+- VARIETE: Variété de l'arbre
+
+- VIGUEUR: Vigueur de l'arbre
+
+
+
+Endroits où se trouvent l'arbre
+--------------------------------
+
+- ADR_SECTEUR: Grenoble comporte 6 secteurs géographiques
+
+- CODE_PARENT: Code parent de la satation. Chaque arbre est associé à un "parent" aussi appelé "station". Ces stations regroupe des arbres de manière géographique. Une station ne peut pas avoir plusieurs catégories d'arbres
+
+- CODE_PARENT_DESC: Endroit où se trouve la station
+
+- FREQUENTATIONCIBLE: Passage près de l'arbre
+
+- SOUS_CATEGORIE: Identifiant de la sous catégorie: un arbre est classé obligatoirement dans l'une de ces 4 sous catégories
+
+- SOUS_CATEGORIE_DESC: Description des 4 sous catégories
+
+- TROTTOIR: Arbre proche d'un trottoir ou non
+
+Diagnostiques
+--------------
+ANNEEREALISATIONDIAGNOSTIC: Année de réalisation du diagnostic de sécurité de l'arbre
+
+ANNEETRAVAUXPRECONISESDIAG: Année préconisée pour le prochain diagnostic
+
+NOTEDIAGNOSTIC: Description de chacune des notes diagnostic attribuées
+
+PRIORITEDERENOUVELLEMENT: Priorité de renouvellement du diagnostic
+
+RAISONDEPLANTATION: Raison de plantation de l'arbre
+
+REMARQUES: Remarques diverses concernant l'arbre
+
+STADEDEVELOPPEMENTDIAG: Stade de développement de l'arbre lors du diagnostique. Un arbre est noté "jeune" jusqu'à ses 10 ans 
+
+TRAITEMENTCHENILLES: Priorité de traitement pour les chenilles processionnaires sur les pins et les cèdres
+
+TRAVAUXPRECONISESDIAG: Travaux préconisés lors du diagnostic de sécurité
